@@ -23,7 +23,7 @@
 
 #### 강사: 고병화
 #### E-mail : digicope@aicore.co.kr
-#### git 주소 :    https://github.com/digicope/ai04
+#### git 주소 :    https://github.com/digicope/ai09
 #### (git 사용기간 : 2020.05.18  ~ 2020.06.12 , 이후에는 접속 불가)
 
 <br>
