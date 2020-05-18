@@ -29,6 +29,11 @@
 
 <br>
 
+#### 슬랙주소
+https://app.slack.com/client/T013ZS6V9RS/C013TLXSJ1G
+<br>
+
+
 ### - GitHub의 쥬피터 노트북 파일 다운로드 방법
 https://datascience.stackexchange.com/questions/35555/how-to-download-a-jupyter-notebook-from-github
 
