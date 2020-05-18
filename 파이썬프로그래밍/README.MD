@@ -3,6 +3,9 @@
 
 ### Anaconda 다운로드
 https://www.anaconda.com/distribution/#download-section
+<br>
+Python 3.7 의 <br>
+64-Bit Graphical Installer (466 MB) 을 다운 받아서 설치한다
 
 
 
