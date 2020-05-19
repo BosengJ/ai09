@@ -30,7 +30,7 @@
 <br>
 
 #### 슬랙주소
-https://app.slack.com/client/T013ZS6V9RS/C013TLXSJ1G
+ https://join.slack.com/t/ai9workspace/shared_invite/zt-eks4o41d-1l1jdK5LDUYTy7SBX4f1hw
 <br>
 <br>
 
