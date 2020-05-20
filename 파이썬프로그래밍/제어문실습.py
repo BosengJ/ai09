@@ -126,41 +126,5 @@ while True:
     print('number2 : {0:^8.2}'.format(number2))
     print('{0:^6} {2:^3} {1:^6} = {3:<.2f}\n'.format(number1, number2, op[op_select], result))
 
-# 8번
-print('{0:=^50}'.format('8'))
-from collections import namedtuple
 
-Student = namedtuple('Student', 'name, subject1, subject2, subject3, total, average, grade')
-
-student_list = []
-MAX = 10
-SUBJECT = 3
-count = 0
-
-name = input('Input name : ')
-while name != 'end' and count < MAX:
-
-    count = count + 1
-    subject = []
-    for x in range(SUBJECT):
-        input_subject = int(input('Input subject' + str(x) + ':'))
-        subject.append(input_subject)
-    total = sum(subject)
-    average = total / SUBJECT
-    if average >= 90:
-        grade = 'Excellent'
-    elif average <= 50:
-        grade = 'Fail'
-    else:
-        grade = ' '
-
-    student = Student(name, subject[0], subject[1], subject[2], total, average, grade)
-    student_list.append(student)
-
-    name = input('Input name : ')
-
-print()
-for x in student_list:
-    print('{0:<10} {1:<3} {2:<3} {3:<3} {4:<5} {5:6.2f} {6:<10}'. \
-          format(x.name, x.subject1, x.subject2, x.subject3, x.total, x.average, x.grade))
 
