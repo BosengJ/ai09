@@ -82,25 +82,3 @@ plt.subplot(224)
 plt.imshow(face04)
 plt.show()
 
-print('-'*80)
-# 3. numpy를 사용하여 아래 두개의 행렬을 만들고 지시대로 출력해보세요
-a = np.arange(16).reshape(4,4)
-print(a)
-b = a*2
-# 3.1 두개의 행렬을 수평으로 합쳐 결과를 출력하세요
-h = np.hstack((a,b))
-print(h)
-print('-'*80)
-# 3.2 두개의 행렬을 수직으로 합쳐 결과를 출력하세요
-v = np.vstack((a,b))
-print(v)
-print('-'*80)
-# 3.3 두개의 행렬을 열로 합쳐 결과를 출력하세요
-c = np.column_stack((a,b))
-print(c)
-
-print('-'*80)
-# 3.4 두개의 행렬을 행으로 합쳐 결과를 출력하세요
-c = np.row_stack((a, b))
-print(c)
-
